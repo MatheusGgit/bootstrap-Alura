@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+
+@include media-breakpoint-down(sm) { ... }
+@include media-breakpoint-down(md) { ... }
+@include media-breakpoint-down(lg) { ... }
+@include media-breakpoint-down(xl) { ... }
+@include media-breakpoint-down(xxl) { ... }
+
+@include media-breakpoint-down(lg) {
+    .facilidades-div {
+        flex-direction: column;
+    }
+}
