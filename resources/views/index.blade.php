@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/design.css') }}" rel="stylesheet">
     <title>Bootstrap</title>
 </head>
 <body>
@@ -235,15 +234,19 @@
         </div>
     </section>
 
-    <form>
-        <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
-        <div>
-            <input type="email" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
-            <button type="button" id="button-addon2">Enviar</button>
-        </div>
-    </form>
+    <div class="d-flex justify-content-center">
+        <form class="border border-secondary m-3 p-3 text-center w-75 p-3">
+            <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+            <div class="input-group my-3">
+                <input class="form-control border-secondary rounded-0" type="email" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
+                <button type="button" id="button-addon2">Enviar</button>
+            </div>
+        </form>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <footer class="text-center">
+        <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais</p>
+    </footer>
 </body>
 </html>
 <style>
@@ -253,4 +256,4 @@
         }
     }
 </style>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
